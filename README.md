@@ -22,7 +22,7 @@ Table Structure:
 I've have used PySpark to solve these problem as there are billions of records in assumption, it is better to use PySpark for perform transformations and cleaning due to it's parallel processing, rather than 
 traditional python, this will improve the performance of our ETL Job.
 
-**Generating Data:** Used Python Code to generate random 250 records of similar format(Record Generator.py).
-**Creating Database:** Uploaded the data into database created using postgreSQL.
-**Performing Transformation & Cleaning:** Using PySpark code, corrected the datatypes, removed unwanted columns and added few additional columns as per the request.
-**Partitioning and Exporting:** At last the data is partitioned based on the country and all the files are stored in different folders.
+1. **Generating Data:** Used Python Code to generate random 250 records of similar format(Record Generator.py).
+2. **Creating Database:** Uploaded the data into database created using postgreSQL.
+3. **Performing Transformation & Cleaning:** Using PySpark code, corrected the datatypes, removed unwanted columns and added few additional columns as per the request.
+4. **Partitioning and Exporting:** At last the data is partitioned based on the country and all the files are stored in different folders.
