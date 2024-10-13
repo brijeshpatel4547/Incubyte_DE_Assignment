@@ -1,9 +1,0 @@
-{
-	"name": "incubyte-factory",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "a38d5bbc-3d58-499e-b327-f817c5cb4190",
-		"tenantId": "b5a2d267-4ba4-4f75-a2c3-19ef56c332b5"
-	}
-}
