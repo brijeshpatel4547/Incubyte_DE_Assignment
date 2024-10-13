@@ -9,11 +9,13 @@ Table Structure:
 
 **Tools and Technologies Used:**
 1. PySpark
-2. Databricks Community Edition
-
+2. Datbricks Community Edition
+3. PostgreSQL
 
 **Solution Deliverables:**
 1. Create table queries
 2. Create the above tables with additional derived columns: age and days since last consulted >30
 3. Create necessary validations.
 4. If we move forward with an interview we would like to see the demonstration
+
+
