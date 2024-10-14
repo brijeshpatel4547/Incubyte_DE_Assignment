@@ -3,7 +3,7 @@
 configs = {"fs.azure.account.auth.type": "OAuth",
 "fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
 "fs.azure.account.oauth2.client.id": "1b583470-a522-45f4-b113-c7b764ff0d5d", #Client ID
-"fs.azure.account.oauth2.client.secret": 'Q-D8Q~NvPWNgY0nwe527.VidvFU-uY2iYpCAPbpA', #Value of secret key
+"fs.azure.account.oauth2.client.secret": 'SecretValue', #Value of secret key
 "fs.azure.account.oauth2.client.endpoint": "https://login.microsoftonline.com/b5a2d267-4ba4-4f75-a2c3-19ef56c332b5/oauth2/token"} #Tenant ID
 
 dbutils.fs.mount(
@@ -34,7 +34,7 @@ jdbcHostname = "incubyte-pgsql.postgres.database.azure.com"
 jdbcPort = 5432
 jdbcDatabase = "incubyte"
 jdbcUsername = "postgres"
-jdbcPassword = "Ten@21049"
+jdbcPassword = "pass"
 
 # Create the JDBC URL
 jdbcUrl = f"jdbc:postgresql://{jdbcHostname}:{jdbcPort}/{jdbcDatabase}"
