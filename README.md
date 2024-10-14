@@ -9,7 +9,7 @@ Table Structure:
 
 **Tools and Technologies Used:**
 1. PySpark
-2. Datbricks Community Edition
+2. Azure Databricks and ADLS Blob Storage
 3. PostgreSQL
 
 **Solution Deliverables:**
