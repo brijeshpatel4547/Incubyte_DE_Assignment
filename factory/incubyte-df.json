@@ -1,0 +1,9 @@
+{
+	"name": "incubyte-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8620601b-d5a6-4f3f-909a-aa86e25ca5db",
+		"tenantId": "b5a2d267-4ba4-4f75-a2c3-19ef56c332b5"
+	}
+}
