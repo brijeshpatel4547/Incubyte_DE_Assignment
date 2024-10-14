@@ -1,0 +1,12 @@
+{
+	"name": "Dest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GitLink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
